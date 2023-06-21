@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My web pagine</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-light">
+    <div class="container bg-success bg-gradient">
+        <nav class="navbar bg-dark bg-gradient">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light ms-5 display-2">Busca tu personaje favorito</a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div>
+
+            <h1
+                class="text-uppercase text-center  border border-black border-5 p-2 bg-danger bg-gradient shadow p-3 mb-5 text-warning">
+                My hero Academia
+            </h1>
+        </div>
+        <div>
+            <img src="img/Boku-no-Hero-Academia.webp" class="img-fluid" alt="img portada">
+        </div>
+        <div>
+            <h2 class="text-uppercase text-center p-2 shadow mt-5 p-3 text-warning">
+                Temporadas
+            </h2>
+        </div>
+        <div>
+            <div id="carouselExample" class="carousel slide p-5 w-80">
+                <div class="carousel-inner">
+                    <div class="carousel-item">
+                        <img src="img/Temporada1.jpg" class="d-block w-100" alt="imagen temporada 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Temporada2.jpg" class="d-block w-100" alt="imagen temporada 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Temporada3.jpg" class="d-block w-100" alt="imagen temporada 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Temporada4.jpg" class="d-block w-100 " alt="imagen temporada 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Temporada5.jpg" class="d-block w-100" alt="imagen temporada 5">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="img/Temporada6.jpg" class="d-block w-100" alt="imagen temporada 6">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-uppercase text-center p-2 shadow mb-5 p-3 text-warning">
+                Personajes principales
+            </h2>
+        </div>
+        <div id="personaje">
+            <div class="card-group">
+                <div class="card">
+                    <img src="img/Lloron.jpg" class="card-img-top" alt="Lloron image">
+                    <div class="card-body">
+                        <h5 class="card-title">Katsuki Bakugo</h5>
+                        <p class="card-text">Katsuki es un chico joven de estatura media, con una constitución delgada y
+                            musculosa y un tono de piel claro. Tiene el pelo corto, puntiagudo y rubio ceniza con
+                            flequillo entrecortado que cuelga sobre sus cejas. Sus ojos son afilados y de color rojo
+                            brillante. </p>
+                        <p>
+                            Su traje de héroe se compone de una camiseta musculosa apretada, y negra con una "X" naranja
+                            en el centro, formando un cuello en v. Hay dos puntos a lo largo de la línea izquierda de su
+                            collar, que indican la compañía de soporte que diseñó su disfraz. Su disfraz también tiene
+                            un collarín metálico con extremos rectangulares que tienen tres agujeros en cada lado. Sus
+                            mangas se extienden desde dentro de sus grandes guanteletes en forma de granada hasta sus
+                            bíceps. Su cinturón, que también lleva granadas, sostiene sus pantalones anchos con
+                            rodilleras, debajo de las cuales luce botas de combate negras hasta las rodillas con suelas
+                            y ojales naranjas. Su máscara es dentada y negra, y a medida que pasa alrededor de sus ojos,
+                            una gran forma de bengala con borde naranja sobresale de cada lado.
+                        </p>
+                        <p class="card-text text-uppercase"><small class="text-body-secondary"><span
+                                    class="text-warning fw-bold ">Quirk:</span>
+                                Explosión</small>
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Deku.jpg" class="card-img-top" alt="Deku image">
+                    <div class="card-body">
+                        <h5 class="card-title "> Izuku Midoriya</h5>
+                        <p class="card-text"> Izuku ha soñado con ser un héroe toda su vida: un objetivo elevado para
+                            cualquiera, pero especialmente desafiante para un niño sin superpoderes. Así es, en un mundo
+                            donde el ochenta por ciento de la población tiene algún tipo de "peculiaridad"
+                            superpoderosa, Izuku tuvo la mala suerte de nacer completamente normal. Pero eso no es
+                            suficiente para evitar que se inscriba en una de las academias de héroes más prestigiosas
+                            del mundo.</p>
+                        <p>Izuku Midoriya es un adolescente de 16 años de edad de estatura mediana, tiene pecas, ojos
+                            verdes y el cabello alborotado, también de color verde. Es delgado pero tiene un cuerpo
+                            tonificado gracias a su entrenamiento con All Might. Suele llevar una chaqueta negra con
+                            botones amarillos junto con un pantalón negro y unos zapatos rojos de gran tamaño con
+                            cordones negros atados con un lazo y suelas blancas. </p>
+                        <p class="card-text text-uppercase"><small class="text-body-secondary"><span
+                                    class="text-warning fw-bold ">Quirk:</span>
+                                One For All (Palanca de cambios,Fa Jin,Sensor de peligro,Látigo negro,Cortina de
+                                humo,Flotar) </small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/Shoto.jpg" class="card-img-top" alt="Shoto image">
+                    <div class="card-body">
+                        <h5 class="card-title">Shoto Todoroki</h5>
+                        <p class="card-text">Shoto es un joven bastante alto y bien formado para su edad. Tiene el pelo
+                            ligeramente largo aunque no le pasa el cuello, usa un flequillo dividido dos veces para no
+                            oscurecer su visión. Su cabello está dividido uniformemente entre dos colores: blanco en su
+                            lado derecho y rojo carmesí a su izquierda, este color inusual se debe a su peculiaridad.
+                            Como otro resultado de esto también posee heterocromía iridio, lo que hace que el iris de su
+                            ojo izquierdo sea turquesa, mientras que el derecho es un marrón grisáceo. Sus ojos son
+                            bastante delgados y reservados y también tiene una gran cicatriz de quemadura en el lado
+                            izquierdo de la cara, que se extiende desde la línea del cabello hasta la mitad de la
+                            mejilla. A pesar de esto, sin embargo varias de las chicas de su clase han afirmado que es
+                            guapo, Mina Ashido incluso llegó a decir que es el chico mas lindo de la Clase 1-A. </p>
+                        <p class="card-text text-uppercase"><small class="text-body-secondary"><span
+                                    class="text-warning fw-bold ">Quirk:</span>
+                                Mitad Frío Mitad Caliente</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-uppercase text-center p-2 shadow mt-5 p-3 text-warning">
+                Contactame
+            </h2>
+        </div>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
